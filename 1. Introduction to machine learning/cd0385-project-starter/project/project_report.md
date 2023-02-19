@@ -6,21 +6,21 @@
 Beacause of the regression characteristics of the model, some predictions were slightly negatives.
 
 ### What was the top ranked model that performed?
-The last one that was not only considering new features but also using non-defalt parameters
+LightGBM_BAG_L1/T1 with the selected non-defaul hyperparameters.
 
 ## Exploratory data analysis and feature creation
 ### What did the exploratory analysis find and how did you add additional features?
-Analysing the data is possible to identify some behaviour that is spacific to the day of the week, so i tried adding this information as a new feature to the model.
+Analysing the data is possible to identify some behaviour that is specific to the day of the week, so i tried adding this information as a new feature to the model.
 
 ### How much better did your model preform after adding additional features and why do you think that is?
-It performed much better, decreassing by almost half the score on kaggle. It happened beacause people usualy demand bikes on the same weekdays.
+It performed 46% better, decreassing by almost half the score on kaggle. It happened beacause people usualy demand bikes on the same weekdays.
 
 ## Hyper parameter tuning
 ### How much better did your model preform after trying different hyper parameters?
-TODO: Marginaly Better.
+Increased aditionaly 18% better beeing 55% better then the first one.
 
 ### If you were given more time with this dataset, where do you think you would spend more time?
-Yes.
+I wold spend more time analysing the data in order to add new relevant parameters.
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 |model|presets|time_limit| NN_TORCH |score|
