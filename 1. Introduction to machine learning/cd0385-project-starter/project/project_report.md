@@ -42,4 +42,5 @@ TODO: Replace the image below with your own.
 ![model_test_score.png](model_test_score.png)
 
 ## Summary
-TODO: Add your explanation
+
+In this project, I used AutoGluon to predict bike sharing demand. I added the day of the week as a new feature, resulting in a 46% improvement in model performance. I also tried different hyperparameters and achieved an additional 18% improvement. If given more time, I would analyze the data to identify and add new relevant parameters. Overall, I developed a successful solution with significant improvements in model performance.
